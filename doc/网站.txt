@@ -1,0 +1,35 @@
+
+--Node.js
+http://www.runoob.com/nodejs/nodejs-event-loop.html
+
+https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/001434501497361a4e77c055f5c4a8da2d5a1868df36ad1000
+
+--es6 中文
+https://sagittarius-rev.gitbooks.io/understanding-ecmascript-6-zh-ver/content/chapter_1.html
+
+--JS模块化工具requirejs
+http://www.runoob.com/w3cnote/requirejs-tutorial-1.html
+
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "测试",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon dist/index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.14.12",
+    "rimraf": "^2.6.2"
+  }
+}
